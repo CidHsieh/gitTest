@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         print("456")
     }
 
+    @IBAction func button(_ sender: UIButton) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
