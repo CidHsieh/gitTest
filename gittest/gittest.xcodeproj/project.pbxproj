@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DAE87691EA4F0E4003F8DF4 /* second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAE87681EA4F0E4003F8DF4 /* second.storyboard */; };
+		3DAE876B1EA4FA39003F8DF4 /* 4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAE876A1EA4FA39003F8DF4 /* 4.storyboard */; };
 		84D751321EA4EBF7008C4C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D751311EA4EBF7008C4C44 /* AppDelegate.swift */; };
 		84D751341EA4EBF7008C4C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D751331EA4EBF7008C4C44 /* ViewController.swift */; };
 		84D751371EA4EBF7008C4C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D751351EA4EBF7008C4C44 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3DAE87681EA4F0E4003F8DF4 /* second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = second.storyboard; sourceTree = "<group>"; };
+		3DAE876A1EA4FA39003F8DF4 /* 4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 4.storyboard; sourceTree = "<group>"; };
 		84D7512E1EA4EBF7008C4C44 /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D751311EA4EBF7008C4C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D751331EA4EBF7008C4C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				84D7513A1EA4EBF7008C4C44 /* LaunchScreen.storyboard */,
 				84D7513D1EA4EBF7008C4C44 /* Info.plist */,
 				3DAE87681EA4F0E4003F8DF4 /* second.storyboard */,
+				3DAE876A1EA4FA39003F8DF4 /* 4.storyboard */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAE87691EA4F0E4003F8DF4 /* second.storyboard in Resources */,
+				3DAE876B1EA4FA39003F8DF4 /* 4.storyboard in Resources */,
 				84D7513C1EA4EBF7008C4C44 /* LaunchScreen.storyboard in Resources */,
 				84D751391EA4EBF7008C4C44 /* Assets.xcassets in Resources */,
 				84D751371EA4EBF7008C4C44 /* Main.storyboard in Resources */,
