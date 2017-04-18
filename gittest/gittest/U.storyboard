@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a9g-k4-G6e">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo View Controller-->
+        <scene sceneID="rl9-4D-scH">
+            <objects>
+                <viewController id="a9g-k4-G6e" customClass="PhotoViewController" customModule="gittest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HUU-b3-TLJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mhy-kb-0eg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H3L-52-pZW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pte-a7-KBp">
+                                <rect key="frame" x="36" y="120" width="303" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pte-a7-KBp" secondAttribute="height" id="A10-cW-HRf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pte-a7-KBp" firstAttribute="leading" secondItem="H3L-52-pZW" secondAttribute="leadingMargin" constant="20" id="2zb-yb-OEm"/>
+                            <constraint firstItem="pte-a7-KBp" firstAttribute="top" secondItem="HUU-b3-TLJ" secondAttribute="bottom" constant="100" id="SXG-eg-tkY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pte-a7-KBp" secondAttribute="trailing" constant="20" id="yCE-e2-3gG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView" destination="pte-a7-KBp" id="h9f-ej-XEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQM-2f-HWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="72"/>
+        </scene>
+    </scenes>
+</document>
